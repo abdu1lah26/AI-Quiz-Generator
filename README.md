@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://imgtr.ee/images/2024/12/05/1dfec120c57a5ca869507150b3e3e85d.png" alt="AI Quiz Generator Banner" width="100%" />
+</p>
+
 #  AI Quiz Generator
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://ai-quiz-generator-fawn.vercel.app)
@@ -221,25 +225,6 @@ Total Lines of Code → **2500+**
 
 ---
 
-## 📈 Future Enhancements
-
-### **Phase 2**
-
-* User accounts (Firebase Auth)
-* Quiz history dashboard
-* PDF/JSON export
-* OCR support
-* Multi-language support (i18n)
-
-### **Phase 3**
-
-* Real-time leaderboards
-* Shareable quiz rooms
-* Custom templates
-* Redis rate-limiting system
-
----
-
 ## 👨‍💻 Author
 
 **Abdullah Shakeel**
@@ -254,5 +239,3 @@ Total Lines of Code → **2500+**
 If this project helped you, consider giving it a **star** ⭐ on GitHub!
 
 ---
-
-Just tell me — I can generate them too.
