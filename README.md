@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://imgtr.ee/images/2024/12/05/1dfec120c57a5ca869507150b3e3e85d.png" alt="AI Quiz Generator Banner" width="100%" />
+  <img src="https://api.microlink.io/?url=https%3A%2F%2Fimgur.com%2Fa%2FdFnYLOG&screenshot=true&meta=false&embed=screenshot.url" alt="AI Quiz Generator Banner" width="100%" />
 </p>
+
 
 #  AI Quiz Generator
 
