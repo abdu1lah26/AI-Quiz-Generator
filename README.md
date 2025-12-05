@@ -240,16 +240,6 @@ Total Lines of Code → **2500+**
 
 ---
 
-## 🐛 Known Issues
-
-| Issue                   | Solution           | Status  |
-| ----------------------- | ------------------ | ------- |
-| Cold starts on Render   | Wake-up message    | ✔ Fixed |
-| Mobile keyboard overlap | viewport-fit=cover | ✔ Fixed |
-| Long question overflow  | word-wrap CSS      | ✔ Fixed |
-
----
-
 ## 👨‍💻 Author
 
 **Abdullah Shakeel**
