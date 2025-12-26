@@ -1,6 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
 
-// Initialize GenAI - NEW SYNTAX: Pass object with apiKey
 const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY
 });
@@ -40,18 +39,15 @@ Rules:
 
     console.log('🤖 Calling Gemini API...');
 
-    // NEW SYNTAX: ai.models.generateContent()
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",  // Or "gemini-1.5-flash"
+      model: "gemini-2.5-flash", 
       contents: prompt
     });
 
     console.log('✅ Gemini response received');
 
-    // NEW SYNTAX: response.text (property, not method)
     const text = response.text;
 
-    // Clean response
     let cleanedText = text.trim();
     if (cleanedText.startsWith('```json')) {
       cleanedText = cleanedText.replace(/```json\n?/g, '').replace(/```\n?/g, '');
