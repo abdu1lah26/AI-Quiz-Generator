@@ -18,7 +18,7 @@ function QuizForm({ onQuizGenerated, setLoading}) {
         setLoading(true);
 
         try {
-            const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/quiz/generate`, {
+            const response = await axios.post(`/api/quiz/generate`, {
                 content,
                 numQuestions: parseInt(numQuestions),
                 difficulty
